@@ -5,5 +5,5 @@ from myapi2 import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('myapi2.urls')),
-    path('api/generate_credentials/', views.GenerateStaffs.as_view()),
+    path('api/generate_staff/', views.GenerateStaffs.as_view()),
  ]
